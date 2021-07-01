@@ -23,37 +23,64 @@
                     <li class="nav__list-item"><a class="nav__list-link" href="">Testimonials</a></li>
                 </ul>
             </nav>
-        <div class="header__logo logo">
-            <a class="logo__link" href="">
-                <img class="logo_img" src="" alt="">
-            </a>
-        </div>
+            <div class="header__logo logo">
+                <a class="logo__link" href="">
+                    <img class="logo__img" src="" alt="">
+                </a>
+            </div>
             
-            <div class="right-block">
-                <div class="personal">
-                    <ul>
-                        <li><a href=""><img src="" alt=""></a></li>
-                        <li><a href=""><img src="" alt=""></a></li>
-                        <li><a href=""><img src="" alt=""></a></li>
+            <div class="header__right-block">
+                <div class="header__personal personal">
+                    <ul class="personal__list">
+                        <li class="personal__list-item">
+                            <a class="personal__link" href="">
+                                <img class="personal__img" src="" alt="">
+                            </a>
+                        </li>
+                        <li class="personal__list-item">
+                            <a class="personal__link" href="">
+                                <img class="personal__img" src="" alt="">
+                            </a>
+                        </li>
+                        <li class="personal__list-item">
+                            <a class="personal__link" href="">
+                                <img class="personal__img" src="" alt="">
+                                <span class="personal__counter">3</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <div class="social">
-                    <ul>
-                        <li><a href=""><img src="" alt=""></a></li>
-                        <li><a href=""><img src="" alt=""></a></li>
-                        <li><a href=""><img src="" alt=""></a></li>
+
+                <div class="header__social social">
+                    <ul class="social__list">
+                        <li class="social__list-item">
+                            <a class="social__link" href="">
+                                <img class="social__img" src="" alt="">
+                            </a>
+                        </li>
+                        <li class="social__list-item">
+                            <a class="social__link" href="">
+                                <img class="social__img" src="" alt="">
+                            </a>
+                        </li>
+                        <li class="social__list-item">
+                            <a class="social__link" href="">
+                                <img class="social__img" src="" alt="">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <div class="header-content">
-            <a href="">Shop Now</a>
+        <div class="header__content">
+            <button class="header__btn btn btn--green">Shop now</button>
             <h1>Life is smoothies?</h1>
         </div>
 
     </header>
-    <section>
+
+    <section class="smoothies">
         <h2>What are these smoothies</h2>
         <p>A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes dairy products (milk, yogurt,
             ice-cream or cottage cheese), typically using a blender. Smoothies may be made using other ingredients, such
@@ -70,7 +97,7 @@
             <div><img src="" alt=""><span>Made With Love</span></div>
         </div>
     </section>
-    <section>
+    <section class="about">
         <img src="" alt="" width="" height="">
         <div class="awesome">
             <h2>What makes Smoothie an awesome drink?</h2>
@@ -84,33 +111,37 @@
                 <li>Gluten-Free & Grain-Free</li>
                 <li>Corn-Free & Soy-Free</li>
             </ul>
-            <a href="">About Organic Smoothie</a>
+            <button class="about__btn btn btn--orange-bordered">About Organic Smoothie</button>
         </div>
     </section>
-    <section>
-        <div><img src="" alt="">
+    <section class="products">
+        <div class="product product--chocolate"><img class="product__img" src="" alt="">
             <h4>Dark Chocolate Smoothie</h4> <span>100ml</span> <a href=""></a>
+            <button class="product__btn btn btn--white-bordered">Buy</button>
         </div>
-        <div><img src="" alt="">
+        <div class="product product--vegan"><img class="product__img" src="" alt="">
             <h4>Vegan Lettuce Smoothie</h4> <span>100ml</span> <a href=""></a>
+            <button class="product__btn btn btn--white-bordered">Buy</button>
         </div>
-        <div><img src="" alt="">
+        <div class="product product--lemon"><img class="product__img" src="" alt="">
             <h4>Lemon Ginger Smoothie</h4> <span>100ml</span> <a href=""></a>
+            <button class="product__btn btn btn--white-bordered">Buy</button>
         </div>
-        <div><img src="" alt="">
+        <div class="product product--turmeric"><img class="product__img" src="" alt="">
             <h4>Turmeric Garlic Smoothie</h4> <span>100ml</span> <a href=""></a>
+            <button class="product__btn btn btn--white-bordered">Buy</button>
         </div>
     </section>
-    <section>
+    <section class="story">
         <img src="" alt="" width="" height="">
         <div class="story">
             <h2>Our Story</h2>
             <p>As products typically using raw fruits or vegetables, smoothies include dietary fiber (e.g. pulp, skin,
                 and seeds) and so are thicker than fruit juice, often with a consistency similar to a milkshake. </p>
-            <a href="">Who we are</a>
+            <button class="story__btn btn btn--green">Who we are</button>
         </div>
     </section>
-    <section>
+    <section class="testimonials">
         <h2>Why clients <span>LOVE</span> us?</h2>
         <div class="">
             <div class="">
@@ -120,18 +151,18 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="blog">
         <h2>Our blog</h2>
         <article>
             <img src="" alt="" width="" height="">
             <h1>ASAFOETIDA - THE NEXT TURMERIC?</h1>
             <time datetime="2020-06-16">Jun 16,2020</time>
             <p>If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the mixed
-                juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything... <a href="">Read
-                    More</a></p>
+                juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything... <button class="blog__btn btn btn--green">Read more</button>
+            </p>
         </article>
     </section>
-    <section>
+    <section class="instagram">
         <a href="">ashasuperfoods</a>
         <img src="" alt="">
         <img src="" alt="">
