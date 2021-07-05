@@ -1,0 +1,63 @@
+@font-face { 
+    font-family: "Muli";
+    src: url(fonts/Muli-Regular.ttf) format("ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+}
+.header__top {
+    width: 1920px;
+    
+}
+.header__nav {
+}
+.nav {
+}
+.nav__list {
+}
+.nav__item {
+}
+.nav__link {
+}
+.header__logo {
+}
+.logo {
+}
+.logo__img {
+}
+.header__right-block {
+}
+.header__personal {
+}
+.personal {
+}
+.personal__item {
+}
+.personal__link {
+}
+.personal__img {
+}
+.personal__counter {
+}
+.header__social {
+}
+.social {
+}
+.social__item {
+}
+.social__link {
+}
+.social__img {
+}
+.header__content {
+}
+.header__btn {
+}
+.btn {
+}
+.btn--green {
+}
