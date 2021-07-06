@@ -13,7 +13,6 @@ body {
 .header__top {
     width: 1900px;
     height: 1080px;
-    border: 1px solid red;
 }
 .header__nav {
 }
@@ -64,6 +63,7 @@ body {
 .btn--green {
 }
 .smoothies {
+    background-color: #ffffff;
 }
 .smoothies__title {
 }
@@ -84,6 +84,7 @@ body {
 .wrapper__img {
 }
 .about {
+    background-color: #138370;
 }
 .about__img {
 }
@@ -104,6 +105,7 @@ body {
 .product__column {
 }
 .product__column--chocolate {
+    background-color: #632f19;
 }
 .product__img {
 }
@@ -112,12 +114,16 @@ body {
 .product__btn {
 }
 .product__column--vegan {
+    background-color: #168470;
 }
 .product__column--lemon {
+    background-color: #faac3f;
 }
 .product__column--turmeric {
+    background-color: #c2481a;
 }
 .story {
+    background-color: #ffffff;
 }
 .story__img {
 }
@@ -130,6 +136,7 @@ body {
 .btn--green {
 }
 .testimonials {
+    background-color: #65311b;
 }
 .testimonials__title {
 }
@@ -138,6 +145,7 @@ body {
 .testimonials__img {
 }
 .blog {
+    background-color: #ffffff;
 }
 .blog__article {
 }
@@ -148,6 +156,7 @@ body {
 .blog__btn {
 }
 .instagram {
+    background-color: #ffffff;
 }
 .instagram__link {
 }
@@ -162,6 +171,7 @@ body {
 .logo_img {
 }
 .footer__top {
+    background-color: #f5ab3b;
 }
 .footer__column {
 }
@@ -190,6 +200,7 @@ body {
 .miss__link {
 }
 .footer__bot {
+    background-color: #6a2d1e;
 }
 .bot {
 }
