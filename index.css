@@ -8,10 +8,12 @@ body {
     margin: 0;
 }
 .header {
+    background-image: url('img/header_bg_img_3669.png');
 }
 .header__top {
-    width: 1920px;
-    
+    width: 1900px;
+    height: 1080px;
+    border: 1px solid red;
 }
 .header__nav {
 }
@@ -60,4 +62,138 @@ body {
 .btn {
 }
 .btn--green {
+}
+.smoothies {
+}
+.smoothies__title {
+}
+.title {
+}
+.title__text {
+}
+.text {
+}
+.smoothies__wrapper {
+}
+.wrapper {
+}
+.wrapper__choice {
+}
+.smoothies__img {
+}
+.wrapper__img {
+}
+.about {
+}
+.about__img {
+}
+.about__awesome {
+}
+.about__title {
+}
+.about__list {
+}
+.about__item {
+}
+.about__btn {
+}
+.btn {
+}
+.product {
+}
+.product__column {
+}
+.product__column--chocolate {
+}
+.product__img {
+}
+.products__link {
+}
+.product__btn {
+}
+.product__column--vegan {
+}
+.product__column--lemon {
+}
+.product__column--turmeric {
+}
+.story {
+}
+.story__img {
+}
+.story__description {
+}
+.story__title {
+}
+.story__btn {
+}
+.btn--green {
+}
+.testimonials {
+}
+.testimonials__title {
+}
+.testimonials__quote {
+}
+.testimonials__img {
+}
+.blog {
+}
+.blog__article {
+}
+.blog__img {
+}
+.blog__title {
+}
+.blog__btn {
+}
+.instagram {
+}
+.instagram__link {
+}
+.instagram__img {
+}
+.footer {
+}
+.footer__logo {
+}
+.logo {
+}
+.logo_img {
+}
+.footer__top {
+}
+.footer__column {
+}
+.footer__title {
+}
+.footer__information {
+}
+.information {
+}
+.information__list {
+}
+.information__link {
+}
+.footer__payment {
+}
+.payment {
+}
+.payment__img {
+}
+.footer__miss {
+}
+.miss {
+}
+.miss__list {
+}
+.miss__link {
+}
+.footer__bot {
+}
+.bot {
+}
+.bot__text {
+}
+.bot__btn {
 }
