@@ -1,6 +1,20 @@
 @font-face { 
-    font-family: "Muli";
-    src: url(fonts/Muli-Regular.ttf) format("ttf");
+    font-family: 'MuliRegular';
+    src: url(fonts/Muli-Regular.ttf) format('ttf');
+}
+
+@font-face { 
+    font-family: 'MuliBold';
+    src: url(fonts/Muli-Bold.ttf) format('ttf');
+}
+
+@font-face { 
+    font-family: 'MuliExtraBold';
+    src: url(fonts/Muli-ExtraBold.ttf) format('ttf');
+}
+
+html, body {
+    font-family: 'Muli-Regular', sans-serif;
 }
 
 body {
@@ -13,16 +27,27 @@ body {
 .header__top {
     width: 1900px;
     height: 1080px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .header__nav {
 }
 .nav {
 }
 .nav__list {
+    list-style: none;
+    display: flex;
+    column-gap: 45px;
 }
 .nav__item {
 }
 .nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'MuliBold', sans-serif;
+    color: #ffffff;
 }
 .header__logo {
 }
@@ -31,8 +56,14 @@ body {
 .logo__img {
 }
 .header__right-block {
+    display: flex;
+    column-gap: 150px;
+
 }
 .header__personal {
+    list-style: none;
+    display: flex;
+    column-gap: 45px;
 }
 .personal {
 }
@@ -47,10 +78,16 @@ body {
 .header__social {
 }
 .social {
+    list-style: none;
+    display: flex;
+    column-gap: 45px;
+    padding-right: 100px;
 }
 .social__item {
 }
 .social__link {
+    display: flex;
+
 }
 .social__img {
 }
