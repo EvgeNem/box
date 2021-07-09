@@ -117,16 +117,19 @@ body {
 
 }
 .btn {
-    border-radius: 35px;
     font-family: "MuliExtraBold", sans-serif;
+    border: none;
+}
+.btn--green {
+    width: 280px;
+    height: 70px;
+    background-color: #0aa566;
+    border-radius: 35px;
     font-size: 24px;
     line-height: 40px;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #ffffff;
-}
-.btn--green {
-    background-color: #0aa566;
 }
 .smoothies {
     background-color: #ffffff;
@@ -197,20 +200,54 @@ body {
 }
 .about {
     background-color: #138370;
+    width: 1920px;
+    height: 800px;
 }
 .about__img {
+    padding: 80px 142px;
 }
 .about__awesome {
+    float: right;
+    
 }
 .about__title {
+    font-family: "MuliBold", sans-serif;
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-right: 350px;
+}
+.about__text {
+    color: #cae941;
 }
 .about__list {
+    list-style: none;
+    list-style-image: url(img/123.png);
 }
 .about__item {
+    font-family: "MuliRegular", sans-serif;
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #ffffff;
 }
+.about__span {
+    font-weight: 400;
+}
+
 .about__btn {
-}
-.btn {
+    font-family: "MuliRegular", sans-serif;
+    font-size: 21px;
+    line-height: 22px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #138370;
+    width: 382px;
+    height: 63px;
+    
 }
 .product {
 }
