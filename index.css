@@ -35,7 +35,7 @@ body {
     margin: 0;
 }
 .header {
-    width: 1900px;
+    width: 1920px;
     height: 1080px;
     background-image: url('img/header_bg_img_3669.png');
 }
@@ -119,6 +119,10 @@ body {
 .btn {
     font-family: "MuliExtraBold", sans-serif;
     border: none;
+}
+.btn:hover {
+    background-color: black;
+    color: red;
 }
 .btn--green {
     width: 280px;
@@ -205,6 +209,7 @@ body {
 }
 .about__img {
     padding: 80px 142px;
+    position: absolute;
 }
 .about__awesome {
     float: right;
@@ -218,7 +223,7 @@ body {
     letter-spacing: -0.02em;
     color: #ffffff;
     margin-top: 100px;
-    margin-right: 350px;
+    margin-right: 330px;
 }
 .about__text {
     color: #cae941;
@@ -250,17 +255,37 @@ body {
     
 }
 .product {
+    display: flex;
 }
 .product__column {
+    width: 480px;
+    height: 720px;
 }
 .product__column--chocolate {
     background-color: #632f19;
+    
+
 }
 .product__img {
+    padding: 130px 180px 30px;
+    
 }
-.products__link {
+.product__link {
+}
+.product__text {
+    display: flex;
+    justify-content: center;
+}
+.product__span {
+    display: flex;
+    justify-content: center;
 }
 .product__btn {
+    width: 207px;
+    height: 63px;
+    margin-top: 45px;
+    margin-left: 137px;
+    background: transparent;
 }
 .product__column--vegan {
     background-color: #168470;
@@ -275,6 +300,7 @@ body {
     background-color: #ffffff;
 }
 .story__img {
+    float: right;
 }
 .story__description {
 }
