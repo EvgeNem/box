@@ -431,8 +431,29 @@ body {
 }
 .instagram {
     background-color: #ffffff;
+    width: 1920px;
+    height: 480px;
 }
 .instagram__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Muli;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #0aa566;
+}
+.instagram__icon {
+    width: 26px;
+    height: 26px;
+}
+.instagram__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .instagram__img {
 }
