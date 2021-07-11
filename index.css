@@ -348,15 +348,43 @@ body {
 }
 .testimonials {
     background-color: #65311b;
+    width: 1920px;
+    height: 720px;
 }
 .testimonials__title {
+    padding-top: 100px;
+    padding-left: 700px;
 }
-.testimonials__text {
-
+.testimonials__span {
+    color: #f2612d;
 }
 .testimonials__quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.testimonials__text {
+    color: #ffffff;
+    width: 450px;
+    height: 120px;
+    text-align: center;
+}
+.testimonials__cite {
+    line-height: 45px;
+    font-weight: 600;
+    font-style: italic;
+    color: #f7ae3b;
 }
 .testimonials__img {
+    width: 220px;
+    height: 218px;
+}
+.testimonials__dots {
+    position: absolute;
+    padding-left: 1450px;
+    margin-top: -100px;
 }
 .blog {
     background-color: #ffffff;
