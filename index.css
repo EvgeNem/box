@@ -350,6 +350,9 @@ body {
     background-color: #65311b;
     width: 1920px;
     height: 720px;
+    background-image: url(img/sarah_a_3260.png);
+    background-repeat: no-repeat;
+    background-position: 450px 150px;
 }
 .testimonials__title {
     padding-top: 100px;
@@ -388,17 +391,43 @@ body {
 }
 .blog {
     background-color: #ffffff;
-}
-.blog__article {
+    width: 1920px;
+    height: 750px;
+    background-image: url(img/line_3286.png);
+    background-repeat: no-repeat;
+    background-position: 900px 200px;
 }
 .blog__img {
+    padding-left: 360px;
 }
 .blog__title {
+    padding-top: 50px;
+    padding-left: 360px;
+}
+.blog__article {
+    float: right;
+    padding-top: 100px;
+    padding-right: 400px;
+}
+.blog__name {
+    font-family: Muli;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #f2612d;
 }
 .blog__text {
-
+    width: 400px;
+    height: 125px;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 .blog__btn {
+    font-weight: 800;
+    font-style: italic;
+    background: transparent;
+    border: none;
 }
 .instagram {
     background-color: #ffffff;
