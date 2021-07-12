@@ -1,19 +1,19 @@
-@font-face { 
+@font-face {
     font-family: "MuliRegular";
     src: url(fonts/Muli-Regular.ttf) format("truetype");
 }
 
-@font-face { 
+@font-face {
     font-family: "MuliBold";
     src: url(fonts/Muli-Bold.ttf) format("truetype");
 }
 
-@font-face { 
+@font-face {
     font-family: "MuliExtraBold";
     src: url(fonts/Muli-ExtraBold.ttf) format("truetype");
 }
 
-@font-face { 
+@font-face {
     font-family: "MuliItalic";
     src: url(fonts/Muli-Italic.ttf) format("truetype");
 }
@@ -26,7 +26,8 @@ font-family: "MuliItalic", sans-serif;
 border:  1px solid red;
 */
 
-html, body {
+html,
+body {
     font-family: "MuliRegular", sans-serif;
 }
 
@@ -34,28 +35,32 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .header {
     width: 1920px;
     height: 1080px;
     background-image: url('img/header_bg_img_3669.png');
 }
+
 .header__top {
     padding: 70px 100px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__nav {
-}
-.nav {
-}
+
+.header__nav {}
+
+.nav {}
+
 .nav__list {
     list-style: none;
     display: flex;
     column-gap: 45px;
 }
-.nav__item {
-}
+
+.nav__item {}
+
 .nav__link {
     text-decoration: none;
     text-transform: uppercase;
@@ -63,67 +68,75 @@ body {
     font-family: "MuliBold", sans-serif;
     color: #ffffff;
 }
-.header__logo {
-}
-.logo {
-}
-.logo__img {
-}
+
+.header__logo {}
+
+.logo {}
+
+.logo__img {}
+
 .header__right-block {
     display: flex;
     column-gap: 150px;
     align-items: center;
 }
+
 .header__personal {
     list-style: none;
     display: flex;
     column-gap: 45px;
 }
-.personal {
-}
-.personal__item {
-}
-.personal__link {
-}
-.personal__img {
-}
-.personal__counter {
-    
-}
-.header__social {
-}
+
+.personal {}
+
+.personal__item {}
+
+.personal__link {}
+
+.personal__img {}
+
+.personal__counter {}
+
+.header__social {}
+
 .social {
     list-style: none;
     display: flex;
     column-gap: 45px;
     padding-right: 100px;
 }
-.social__item {
-}
+
+.social__item {}
+
 .social__link {
     display: flex;
 
 }
-.social__img {
-}
+
+.social__img {}
+
 .header__content {
     display: flex;
     justify-content: center;
 
 }
+
 .header__btn {
     width: 280px;
     height: 70px;
 
 }
+
 .btn {
     font-family: "MuliExtraBold", sans-serif;
     border: none;
 }
+
 .btn:hover {
     background-color: black;
     color: red;
 }
+
 .btn--green {
     width: 280px;
     height: 70px;
@@ -135,35 +148,42 @@ body {
     letter-spacing: -0.02em;
     color: #ffffff;
 }
+
 .smoothies {
     background-color: #ffffff;
-    
+
 }
+
 .smoothies__title {
     display: flex;
     justify-content: center;
 }
+
 .title {
-    font-family: Muli;
+    font-family: "MuliExtraBold", sans-serif;
     font-size: 50px;
     line-height: 40px;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #f7ae3b;
-    
+
 }
+
 .smoothies__text {
     padding-left: 500px;
     width: 915px;
     height: 122px;
+    text-align: center;
 }
+
 .text {
-    font-family: Muli;
+    font-family: "MuliRegular", sans-serif;
     font-size: 18px;
     line-height: 35px;
     font-weight: 400;
     color: #1e1e1e;
 }
+
 .smoothies__wrapper {
     display: flex;
     justify-content: center;
@@ -172,11 +192,13 @@ body {
     margin-left: 453px;
     margin-top: 85px;
 }
+
 .wrapper {
     display: grid;
     grid-template-rows: max-content max-content;
     grid-template-columns: max-content max-content max-content max-content;
 }
+
 .wrapper__choice {
     display: flex;
     flex-direction: column;
@@ -184,13 +206,15 @@ body {
     align-items: center;
     padding: 0px 50px;
 }
+
 .wrapper__img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .wrapper__text {
-    font-family: Muli;
+    font-family: "MuliExtraBold", sans-serif;
     font-size: 25px;
     line-height: 40px;
     font-weight: 800;
@@ -200,19 +224,23 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .about {
     background-color: #138370;
     width: 1920px;
     height: 800px;
 }
+
 .about__img {
     padding: 80px 142px;
     position: absolute;
 }
+
 .about__awesome {
     float: right;
-    
+
 }
+
 .about__title {
     font-family: "MuliBold", sans-serif;
     font-size: 55px;
@@ -223,13 +251,16 @@ body {
     margin-top: 100px;
     margin-right: 330px;
 }
+
 .about__text {
     color: #cae941;
 }
+
 .about__list {
     list-style: none;
     list-style-image: url(img/123.png);
 }
+
 .about__item {
     font-family: "MuliRegular", sans-serif;
     font-size: 21px;
@@ -237,6 +268,7 @@ body {
     font-weight: 800;
     color: #ffffff;
 }
+
 .about__span {
     font-weight: 400;
 }
@@ -250,67 +282,78 @@ body {
     background-color: #138370;
     width: 382px;
     height: 63px;
-    
+
 }
+
 .product {
     width: 1920px;
     display: flex;
 }
+
 .product__column {
     width: 480px;
     height: 720px;
 }
+
 .product__column--chocolate {
     background-color: #632f19;
-    
+
 
 }
+
 .product__img {
     padding: 130px 180px 30px;
-    
+
 }
-.product__link {
-}
+
+.product__link {}
+
 .product__text {
     display: flex;
     justify-content: center;
-    font-family: Muli;
+    font-family: "MuliBold", sans-serif;
     font-size: 24px;
     line-height: 22px;
     font-weight: 700;
     color: #ffffff;
 }
+
 .product__span {
     display: flex;
     justify-content: center;
     font-size: 21px;
     line-height: 32px;
     font-weight: 400;
-    font-style: italic;
+    font-family: "MuliItalic", sans-serif;
     color: #ffffff;
 }
+
 .product__btn {
     width: 207px;
     height: 63px;
     margin-top: 45px;
     margin-left: 137px;
     background: transparent;
-    font-family: Muli;
+    font-family: "MuliExtraBold", sans-serif;
     font-size: 21px;
     line-height: 22px;
     font-weight: 800;
     color: #ffffff;
-    
+
 }
+
 .product__column--vegan {
     background-color: #168470;
 }
+
 .product__column--lemon {
     background-color: #faac3f;
 }
+
 .product__column--turmeric {
     background-color: #c2481a;
 }
+
 .story {
     background-color: #ffffff;
     width: 1920px;
@@ -318,6 +361,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
 }
+
 .story__img {
     width: 585px;
     height: 601px;
@@ -325,6 +369,7 @@ body {
     padding-right: 310px;
     padding-left: 200px;
 }
+
 .story__logo {
     width: 290px;
     height: 216px;
@@ -332,20 +377,24 @@ body {
     padding-right: 760px;
     position: absolute;
 }
+
 .story__description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 310px;
 }
+
 .story__title {
     padding-bottom: 20px;
 }
+
 .story__text {
     padding-bottom: 60px;
 }
-.story__btn {
-}
+
+.story__btn {}
+
 .testimonials {
     background-color: #65311b;
     width: 1920px;
@@ -354,13 +403,16 @@ body {
     background-repeat: no-repeat;
     background-position: 450px 150px;
 }
+
 .testimonials__title {
     padding-top: 100px;
     padding-left: 700px;
 }
+
 .testimonials__span {
     color: #f2612d;
 }
+
 .testimonials__quote {
     display: flex;
     flex-direction: row;
@@ -368,27 +420,32 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .testimonials__text {
     color: #ffffff;
     width: 450px;
     height: 120px;
     text-align: center;
 }
+
 .testimonials__cite {
     line-height: 45px;
     font-weight: 600;
     font-style: italic;
     color: #f7ae3b;
 }
+
 .testimonials__img {
     width: 220px;
     height: 218px;
 }
+
 .testimonials__dots {
     position: absolute;
     padding-left: 1450px;
     margin-top: -100px;
 }
+
 .blog {
     background-color: #ffffff;
     width: 1920px;
@@ -397,68 +454,79 @@ body {
     background-repeat: no-repeat;
     background-position: 900px 200px;
 }
+
 .blog__img {
     padding-left: 360px;
 }
+
 .blog__title {
     padding-top: 50px;
     padding-left: 360px;
 }
+
 .blog__article {
     float: right;
     padding-top: 100px;
     padding-right: 400px;
 }
+
 .blog__name {
-    font-family: Muli;
+    font-family: "MuliExtraBold", sans-serif;
     font-size: 30px;
     line-height: 40px;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #f2612d;
 }
+
 .blog__text {
-    width: 400px;
+    width: 450px;
     height: 125px;
     padding-top: 20px;
     padding-left: 50px;
 }
+
 .blog__btn {
     font-weight: 800;
     font-style: italic;
     background: transparent;
     border: none;
 }
+
 .instagram {
     background-color: #ffffff;
     width: 1920px;
     height: 480px;
 }
+
 .instagram__link {
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-family: Muli;
+    font-family: "MuliExtraBold", sans-serif;
     font-size: 24px;
     line-height: 40px;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #0aa566;
 }
+
 .instagram__icon {
     width: 26px;
     height: 26px;
 }
+
 .instagram__row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.instagram__img {
-}
-.footer {
-}
+
+.instagram__img {}
+
+.footer {}
+
 .footer__top {
     width: 1920px;
     height: 372px;
@@ -466,39 +534,44 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 60px;
 }
+
 .footer__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 140px;
 }
-.logo {
-}
-.logo_img {
-}
+
+.logo {}
+
+.logo_img {}
+
 .footer__column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
+
 .footer__title {
-    font-family: Muli;
+    font-family: "MuliExtraBold", sans-serif;
     font-size: 26px;
     line-height: 40px;
     font-weight: 800;
     color: #ffffff;
 }
-.footer__information {
-    
-}
-.information {
-}
+
+.footer__information {}
+
+.information {}
+
 .information__list {
     list-style: none;
+
 }
+
 .information__link {
-    font-family: Muli;
+    font-family: "MuliBold", sans-serif;
     font-size: 18px;
     line-height: 35px;
     font-weight: 700;
@@ -506,38 +579,73 @@ body {
     color: #6d450c;
     text-decoration: none;
 }
+
 .footer__payment {
     display: grid;
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: auto auto auto auto;
-    
+    grid-template-columns: 55px auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+
 }
-.payment {
-}
-.payment__img {
-    
-}
-.footer__miss {
-}
-.miss {
-}
+
+.payment {}
+
+.payment__img {}
+
+.footer__miss {}
+
+.miss {}
+
 .miss__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
-.miss__link {
-}
+
+.miss__link {}
+
 .footer__bot {
     background-color: #6a2d1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
-.bot {
-}
+
+.bot {}
+
 .bot__text {
+    font-family: "MuliRegular", sans-serif;
+    font-size: 13px;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #af8a82;
 }
+
 .bot__btn {
+    font-family: "MuliBold", sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 650px;
+    padding-right: 200px;
 }
+
 h5 {
-    font-family: Muli;
+    font-family: "MuliBold", sans-serif;
     font-size: 17px;
     line-height: 35px;
     font-weight: 700;
     color: #6d450c;
 }
+
+h6 {
+    font-family: "MuliExtraBold", sans-serif;
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #6d450c;
