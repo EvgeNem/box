@@ -12,7 +12,20 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
 /* Sections
    ========================================================================== */
 
