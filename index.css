@@ -439,6 +439,7 @@ body {
     background-image: url(img/line_3286.png);
     background-repeat: no-repeat;
     background-position: 900px 200px;
+    padding-bottom: 200px;
 }
 
 .blog__img {
@@ -448,6 +449,12 @@ body {
 .blog__title {
     padding-top: 50px;
     padding-left: 360px;
+    padding-bottom: 50px;
+    font-family: "MuliExtraBold", sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #f7ae3b;
 }
 
 .blog__article {
@@ -460,11 +467,12 @@ body {
     font-family: "MuliExtraBold", sans-serif;
     font-size: 30px;
     line-height: 40px;
-    font-weight: 800;
     letter-spacing: -0.02em;
     color: #f2612d;
 }
-
+.blog__date {
+    
+}
 .blog__text {
     width: 450px;
     height: 125px;
@@ -473,8 +481,7 @@ body {
 }
 
 .blog__btn {
-    font-weight: 800;
-    font-style: italic;
+    font-family: "MuliItalic", sans-serif;
     background: transparent;
     border: none;
 }
