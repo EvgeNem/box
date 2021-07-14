@@ -471,7 +471,7 @@ body {
     color: #f2612d;
 }
 .blog__date {
-    
+
 }
 .blog__text {
     width: 450px;
@@ -487,35 +487,26 @@ body {
 }
 
 .instagram {
-    background-color: #ffffff;
-    width: 1920px;
-    height: 480px;
 }
 
 .instagram__link {
     display: flex;
     justify-content: center;
-    align-items: center;
     text-decoration: none;
     font-family: "MuliExtraBold", sans-serif;
     font-size: 24px;
     line-height: 40px;
-    font-weight: 800;
     letter-spacing: -0.02em;
     color: #0aa566;
-}
-
-.instagram__icon {
-    width: 26px;
-    height: 26px;
 }
 
 .instagram__inner {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 50px;
 }
-
+.instagram__list {}
 .instagram__img {}
 
 .footer {}
