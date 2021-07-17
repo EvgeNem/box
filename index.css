@@ -65,6 +65,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .header__nav {}
@@ -86,7 +87,16 @@ body {
     color: #ffffff;
 }
 
-.header__logo {}
+.header__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 
 .logo {}
 
@@ -101,17 +111,46 @@ body {
     display: flex;
     column-gap: 45px;
     margin-right: 150px;
+    position: relative;
+}
+.header__personal::after {
+    content: "";
+    background-image: url(img/line_2944.png);
+    width: 47px;
+    height: 2px;
+    background-color: #ffd68f;
+    position: absolute;
+    top: 50%;
+    right: -100px;
 }
 
 .personal {}
 
-.personal__item {}
+.personal__item {
+    position: relative;
+}
 
 .personal__link {}
 
 .personal__img {}
 
-.personal__counter {}
+.personal__counter {
+    width: 21px;
+    height: 21px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 2;
+    font-size: 10px;
+    font-weight: 700;
+    position: absolute;
+    top: -14px;
+    left: 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 
 .header__social {
     display: flex;
@@ -120,18 +159,29 @@ body {
 
 .social {}
 
-.social__item {}
+.social__item {
+    width: 38px;
+    height: 38px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 
 .social__link {
     display: flex;
+    justify-content: center;
+    margin-top: 25%;
 }
 
-.social__img {}
+.social__img {
+}
 
 .header__content {
     display: flex;
     justify-content: center;
-
 }
 
 .header__btn {
@@ -143,6 +193,19 @@ body {
     line-height: 40px;
     letter-spacing: -0.02em;
     color: #ffffff;
+    position: relative;
+    text-align: left;
+    padding: 0 0 0 50px;
+}
+
+.header__btn::after {
+    content: "";
+    background-image: url(img/arrow__3264.png);
+    position: absolute;
+    width: 30px;
+    height: 16px;
+    top: 30px;
+    right: 40px;
 }
 
 .btn {
@@ -268,7 +331,7 @@ body {
     padding-left: 17px;
 }
 
-.about__item--thin {
+.about__item-thin {
     font-family: "MuliRegular", sans-serif;
 }
 
@@ -277,6 +340,18 @@ body {
     width: 382px;
     height: 63px;
     border: 2px solid #f8b231;
+    position: relative;
+    text-align: left;
+    padding: 0 0 0 40px;
+}
+.about__btn::after {
+    content: "";
+    background-image: url(img/arrow__3264.png);
+    position: absolute;
+    width: 30px;
+    height: 16px;
+    top: 25px;
+    right: 40px;
 }
 
 .product {}
@@ -290,6 +365,7 @@ body {
     flex-direction: column;
     align-items: center;
     flex: auto;
+    
 }
 
 .product__img {
@@ -318,8 +394,19 @@ body {
     width: 207px;
     height: 63px;
     border: 2px solid #ffffff;
+    position: relative;
+    text-align: left;
+    padding: 0 0 0 40px;
 }
-
+.product__btn::after {
+    content: "";
+    background-image: url(img/arrow_3139.png);
+    position: absolute;
+    width: 30px;
+    height: 16px;
+    top: 25px;
+    right: 40px;
+}
 .product__column--chocolate {
     background-color: #632f19;
 }
@@ -364,8 +451,19 @@ body {
     margin-top: 60px;
     width: 304px;
     height: 63px;
+    position: relative;
+    text-align: left;
+    padding: 0 0 0 40px;
 }
-
+.story__btn::after {
+    content: "";
+    background-image: url(img/arrow__3264.png);
+    position: absolute;
+    width: 30px;
+    height: 16px;
+    top: 25px;
+    right: 40px;
+}
 .testimonials {
     background-color: #65311b;
     padding-top: 120px;
@@ -425,6 +523,8 @@ body {
     margin-left: 100px;
     background: transparent;
 }
+.testimonials__arrow {
+}
 
 .blog {
     padding-top: 100px;
@@ -443,6 +543,7 @@ body {
 
 .blog__img {
     margin-top: 50px;
+    z-index: 1;
 }
 
 .blog__title {}
@@ -451,8 +552,17 @@ body {
     display: flex;
     align-items: center;
     margin-top: 150px;
+    position: relative;
 }
-
+.blog__box::after {
+    content: "";
+    background-image: url(img/line_3286.png);
+    position: absolute;
+    width: 687px;
+    height: 12px;
+    top: 0;
+    right: -45px;
+}
 .blog__article {
     margin-left: 60px;
 }
@@ -477,18 +587,42 @@ body {
     font-family: "MuliBoldItalic", sans-serif;
     background: transparent;
     border: none;
+    position: relative;
 }
-
+.blog__btn::after {
+    content: "";
+    background-image: url(img/arrow_3289.png);
+    position: absolute;
+    width: 18px;
+    height: 10px;
+    top: 5px;
+    right: -30px;
+}
 .instagram {}
 
-.instagram__link {
+.instagram__title {
     display: flex;
     justify-content: center;
+
+}
+
+.instagram__link {
     font-family: "MuliExtraBold", sans-serif;
     font-size: 24px;
     line-height: 40px;
     letter-spacing: -0.02em;
     color: #0aa566;
+    max-width: 200px;
+    position: relative;
+}
+.instagram__link::before {
+    content: "";
+    background-image: url(img/icon_3294.png);
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: -35px;
+    top: 10px;
 }
 
 .instagram__inner {
@@ -498,8 +632,25 @@ body {
 
 .instagram__list {
     width: 20%;
+    position: relative;
 }
-
+.instagram__list::before {
+    content: "";
+    background-image: url(img/shadow_3306.png);
+    position: absolute;
+    width: 384px;
+    height: 384px;
+    opacity: 0.4;
+}
+.instagram__list::after {
+    content: "";
+    background-image: url(img/instagram_3382.png);
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    right: 20px;
+    bottom: 20px;
+}
 .instagram__img {}
 
 .footer {}
@@ -609,18 +760,17 @@ body {
     display: flex;
     position: absolute;
     right: 40px;
-    bottom: 30px;
+    bottom: 25px;
 }
 
-.social {}
 
-.social__item {
+.footer__social-item {
     margin: 10px;
 }
 
-.social__link {}
+.footer__social-link {}
 
-.social__img {}
+.footer__social-img {}
 
 .footer__bot {
     background-color: #6a2d1e;
