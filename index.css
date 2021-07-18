@@ -639,6 +639,7 @@ body {
 .blog__container {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .blog__img {
@@ -652,17 +653,16 @@ body {
     display: flex;
     align-items: center;
     margin-top: 169px;
-    position: relative;
 }
 
-.blog__box::after {
+.blog__container::after {
     content: "";
     background-image: url(img/line_3286.png);
     position: absolute;
     width: 687px;
     height: 12px;
-    top: 0;
-    right: -45px;
+    top: 170px;
+    left: 515px;
 }
 
 .blog__article {
