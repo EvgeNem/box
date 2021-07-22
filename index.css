@@ -92,10 +92,6 @@ body {
     top: 55%;
     left: 956px;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
 }
 
 .logo {}
@@ -148,10 +144,6 @@ body {
     top: -10px;
     left: 20px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .header__social {
@@ -166,10 +158,6 @@ body {
     height: 38px;
     background-color: #ffffff;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .social__link {
@@ -329,10 +317,6 @@ body {
 .about__img {
     margin-bottom: -18px;
     transform: translate(48px, 65px);
-    -webkit-transform: translate(48px, 63px);
-    -moz-transform: translate(48px, 65px);
-    -ms-transform: translate(48px, 65px);
-    -o-transform: translate(48px, 65px);
 }
 
 .about__inner {
