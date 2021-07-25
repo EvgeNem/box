@@ -186,6 +186,7 @@ body {
     position: relative;
     text-align: left;
     padding: 0 0 0 39px;
+    transition: 1s;
 }
 
 .header__btn::after {
@@ -197,6 +198,10 @@ body {
     top: 30px;
     right: 40px;
 }
+.header__btn:hover {
+    transform: scale(110%);
+    color:black;
+}
 
 .btn {
     font-family: "MuliBold", sans-serif;
@@ -205,6 +210,10 @@ body {
     color: #ffffff;
     border-radius: 30px;
     background: transparent;
+    transition: 1s;
+}
+.btn:hover {
+    transform: scale(110%);
 }
 
 .btn--green {
@@ -317,8 +326,11 @@ body {
 .about__img {
     margin-bottom: -18px;
     transform: translate(48px, 65px);
+    transition: 1s;
 }
-
+.about__img:hover {
+    transform: scale(110%) rotate(-6.5deg);
+}
 .about__inner {
     display: flex;
     flex-direction: column;
