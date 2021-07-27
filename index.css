@@ -326,11 +326,11 @@ body {
 .about__img {
     margin-bottom: -18px;
     transform: translate(48px, 65px);
-    transition: 1s;
+    /* transition: 1s; */
 }
-.about__img:hover {
+/* .about__img:hover {
     transform: scale(110%) rotate(-6.5deg);
-}
+} */
 .about__inner {
     display: flex;
     flex-direction: column;
