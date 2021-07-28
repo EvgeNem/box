@@ -222,7 +222,7 @@ body {
 
 .smoothies {
     padding-top: 100px;
-    padding-bottom: 95px;
+    padding-bottom: 78px;
 }
 
 .smoothies__container {
@@ -320,23 +320,19 @@ body {
 
 .about__wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .about__img {
-    margin-bottom: -18px;
-    transform: translate(48px, 65px);
-    /* transition: 1s; */
+    margin-left: 145px;
+    transform: translateY(80px);
 }
-/* .about__img:hover {
-    transform: scale(110%) rotate(-6.5deg);
-} */
+
 .about__inner {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-right: 260px;
-    margin-top: 88px;
+    margin-left: 140px;
+    margin-top: 104px;
 }
 
 .about__title {
