@@ -1,0 +1,4 @@
+
+menu.onclick = function myFunction () {
+   
+}

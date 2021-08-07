@@ -994,13 +994,13 @@ body {
         top: 0;
         right: 0;
         left: 0;
-        display: flex;
+        display: none;
         flex-direction: column-reverse;
         justify-content: flex-end;
         padding-top: 100px;
     }
     .header__burger-btn {
-        display: block;
+        display: block; 
     }
     .header__right-block {
         margin-bottom: 55px;
