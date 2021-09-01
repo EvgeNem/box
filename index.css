@@ -342,8 +342,7 @@ body {
 
 .about__img {
     margin-left: 145px;
-    transform: translateY(80px);
-    object-fit: cover;
+    object-fit: contain;
     max-width: 691px;
     width: 100%;
 }
@@ -994,7 +993,7 @@ body {
         top: 0;
         right: 0;
         left: 0;
-        display: none;
+        display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
         padding-top: 100px;
