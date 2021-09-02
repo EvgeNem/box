@@ -1,4 +1,1 @@
 
-menu.onclick = function myFunction () {
-   
-}

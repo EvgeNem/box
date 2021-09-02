@@ -990,7 +990,18 @@ body {
     background-position-y: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1545px) {
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .header__nav {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1035px) {
     .header__menu {
         position: fixed;
         background-color: #0aa566;
@@ -998,7 +1009,7 @@ body {
         top: 0;
         right: 0;
         left: 0;
-        display: flex;
+        display: none;
         flex-direction: column-reverse;
         justify-content: flex-end;
         padding-top: 100px;
@@ -1015,6 +1026,9 @@ body {
     }
     .nav__item {
         margin-bottom: 30px;
+    }
+    .smoothies__title {
+        text-align: center;
     }
     .smoothies__wrapper {
         grid-template-columns: repeat(2, 1fr);
