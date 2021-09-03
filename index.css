@@ -337,15 +337,12 @@ body {
 
 .about__wrapper {
     display: flex;
-    justify-content: flex-start;
 }
 
 .about__img {
     margin-left: 145px;
     transform: translate(0, 80px);
-    object-fit: contain;
     max-width: 691px;
-    width: 100%;
     transition: 1s;
 }
 .about__img:hover {
@@ -998,6 +995,10 @@ body {
     }
     .header__nav {
         margin-bottom: 50px;
+    }
+    .about__wrapper {
+        display: flex;
+        flex-direction: column;
     }
 }
 
