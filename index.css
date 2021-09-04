@@ -1049,6 +1049,42 @@ body {
     .instagram__inner {
         overflow: auto;
     }
+    .footer__top {
+        flex-direction: column;
+    }
+    .footer__logo {
+        margin-top: 0;
+        align-self: center;
+    }
+    .footer__information {
+        margin-left: 40px;
+    }
+    .footer__title {
+        text-align: center;
+    }
+    .information__list {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer__payment {
+        margin-left: 0;
+        max-width: none;
+    }
+    .payment__list {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer__column {
+        margin-left: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__social {
+        position: static;
+        margin-top: -35px;
+        margin-left: 245px;
+    }
 }
 
 @media screen and (max-width: 1035px) {
@@ -1102,6 +1138,7 @@ body {
     .about__inner {
         margin-left: 20px;
     }
+
 }
 
 @media screen and (max-width: 470px) {
