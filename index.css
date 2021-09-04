@@ -1037,7 +1037,17 @@ body {
     .testimonials__inner {
         margin-right: 0;
     }
-}
+    .blog__container::after {
+        background-image: url(0);
+    }
+    .blog__wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .blog__box {
+        margin-top: 20px;
+    }
 
 @media screen and (max-width: 1035px) {
     .header__menu {
