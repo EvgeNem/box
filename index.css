@@ -994,11 +994,14 @@ body {
         padding-top: 100px;
     }
     .header__nav {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .about__wrapper {
         display: flex;
         flex-direction: column;
+    }
+    .header__content {
+        margin-top: -50px;
     }
 }
 
@@ -1020,6 +1023,9 @@ body {
     }
     .header__right-block {
         margin-bottom: 55px;
+    }
+    .header__content {
+        margin-top: 50px;
     }
     .nav__list {
         flex-direction: column;
