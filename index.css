@@ -773,7 +773,6 @@ body {
 }
 
 .instagram__list {
-    width: 20%;
     position: relative;
 }
 
@@ -799,7 +798,6 @@ body {
 .instagram__img {
     object-fit: cover;
     max-width: 384px;
-    width: 100%;
 }
 
 .footer {}
@@ -1048,6 +1046,10 @@ body {
     .blog__box {
         margin-top: 20px;
     }
+    .instagram__inner {
+        overflow: auto;
+    }
+}
 
 @media screen and (max-width: 1035px) {
     .header__menu {
