@@ -425,7 +425,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    min-width: 480px;
 }
 
 .product__img {
@@ -1003,6 +1003,9 @@ body {
     .header__content {
         margin-top: -50px;
     }
+    .product__wrapper {
+        overflow: scroll;
+    }
 }
 
 @media screen and (max-width: 1035px) {
@@ -1050,9 +1053,15 @@ body {
         border-right: none;
         border-bottom: 2px solid #f6edde;
     }
+    .about__img {
+        margin-left: 10px;
+    }
+    .about__inner {
+        margin-left: 20px;
+    }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 470px) {
     
     .header__personal::after {
         display:none;
