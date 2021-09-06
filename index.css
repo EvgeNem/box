@@ -1000,6 +1000,9 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .about__title::after {
+        display: none;
+    }
     .header__content {
         margin-top: -50px;
     }
