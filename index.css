@@ -1010,7 +1010,7 @@ body {
         overflow: scroll;
     }
     .story__wrapper::after {
-        background-image: url(0);
+        display: none;
     }
     .story__wrapper {
         display: flex;
@@ -1041,7 +1041,7 @@ body {
         margin-right: 0;
     }
     .blog__container::after {
-        background-image: url(0);
+        display: none;
     }
     .blog__wrapper {
         flex-direction: column;
@@ -1167,6 +1167,10 @@ body {
     .smoothies__box {
         width: 160px;
         height: 160px;
+    }
+    .about__btn {
+        width: 270px;
+        margin-bottom: 50px;
     }
     .blog__article {
         margin-left: 0;
