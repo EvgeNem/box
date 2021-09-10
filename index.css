@@ -1026,10 +1026,10 @@ body {
         margin-left: 55px;
     }
     .testimonials__wrapper::after {
-        background-image: url(0);
+        display: none;
     }
     .testimonials__wrapper::before {
-        content: none;
+        display: none;
     }
     .testimonials__img:hover {
         transform: none;
@@ -1149,7 +1149,7 @@ body {
 @media screen and (max-width: 470px) {
     
     .header__personal::after {
-        display:none;
+        display: none;
     }
     .header__menu {
         background-color: #473bf5;
