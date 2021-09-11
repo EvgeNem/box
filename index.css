@@ -78,6 +78,7 @@ body {
     right: 30px;
     display: none;
     z-index: 999;
+    margin-right: 10px;
 }
 
 .header__menu {
@@ -263,7 +264,7 @@ body {
 .smoothies__text {
     max-width: 915px;
     text-align: center;
-    margin-top: 40px;
+    margin: 40px;
 }
 
 .text {
@@ -330,6 +331,7 @@ body {
     letter-spacing: -0.02em;
     color: #f2612d;
     margin-top: 19px;
+    text-align: center;
 }
 
 .about {
@@ -534,7 +536,7 @@ body {
 
 .story__text {
     max-width: 514px;
-    margin-top: 43px;
+    margin: 40px 30px 0 5px;
 }
 
 .story__btn {
@@ -784,8 +786,8 @@ body {
     content: "";
     background-image: url(img/shadow_3306.png);
     position: absolute;
-    width: 384px;
-    height: 384px;
+    width: 100%;
+    max-width: 384px;
     opacity: 0.4;
 }
 
@@ -802,6 +804,7 @@ body {
 .instagram__img {
     object-fit: cover;
     max-width: 384px;
+    width: 100%;
 }
 
 .footer {}
@@ -1064,6 +1067,7 @@ body {
         align-self: center;
     }
     .footer__information {
+        margin-top: 50px;
         margin-left: 40px;
     }
     .footer__title {
@@ -1213,7 +1217,7 @@ body {
         margin-left: 85px;
     }
     .footer__go-top {
-        right: 80px;
+        right: 100px;
         font-size: 0;
     }
 }
