@@ -45,6 +45,7 @@ border:  1px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border:  1px solid red;
 }
 
 body {
@@ -425,7 +426,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 480px;
+    width: 100%;
+    max-width: 480px;
 }
 
 .product__img {
