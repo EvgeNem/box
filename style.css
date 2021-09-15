@@ -449,8 +449,6 @@ body {
     line-height: 22px;
     color: #ffffff;
     margin-top: 29px;
-    width: 480px;
-    text-align: center;
 }
 
 .product__span {
@@ -788,8 +786,7 @@ body {
     background-image: url(img/shadow_3306.png);
     position: absolute;
     width: 100%;
-    max-width: 384px;
-    height: 384px;
+    height: 100%;
     opacity: 0.4;
 }
 
@@ -805,7 +802,7 @@ body {
 
 .instagram__img {
     object-fit: cover;
-    max-width: 384px;
+    width: 100%;
 }
 
 .footer {}
@@ -1012,6 +1009,9 @@ body {
     .header__content {
         margin-top: -50px;
     }
+    .product__column {
+        min-width: 480px;
+    }
     .product__wrapper {
         overflow: scroll;
     }
@@ -1056,6 +1056,9 @@ body {
     }
     .blog__box {
         margin-top: 20px;
+    }
+    .instagram__img {
+        min-width: 384px;
     }
     .instagram__inner {
         overflow: auto;
@@ -1221,4 +1224,10 @@ body {
         right: 100px;
         font-size: 0;
     }
+}
+
+.container {
+    max-width: 1740px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
