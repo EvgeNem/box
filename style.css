@@ -82,8 +82,8 @@ body {
     border: none;
     background-color: transparent;
     position: fixed;
-    top: 30px;
-    right: 30px;
+    top: 20px;
+    right: 10px;
     display: none;
     z-index: 999;
     margin-right: 10px;
@@ -1383,7 +1383,7 @@ body {
     }
 
     .footer__go-top {
-        right: 75px;
+        right: 85px;
         font-size: 0;
     }
 }
